@@ -105,7 +105,7 @@ $demo_blocks_essay
 
 ## Setting Default Values on Components
 
-You can control the value displayed in your components when the app first launches by setting the `value` parameter in the component constructor.
+You can control the default value displayed in your components when the app first launches by setting the `value` parameter in the component constructor.
 
 In the following simple calculator demo, the `num_1` and `num_2` take on the values 4 and 0, respectively, when the app launches.
 
