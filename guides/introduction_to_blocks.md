@@ -103,6 +103,18 @@ $code_blocks_essay
 
 $demo_blocks_essay
 
+## Setting Default Values on Components
+
+You can control the value displayed in your components when the app first launches by setting the `value` parameter in the component constructor.
+
+In the following simple calculator demo, the `num_1` and `num_2` take on the values 4 and 0, respectively, when the app launches.
+
+$code_calculator_blocks
+$demo_calculator_blocks
+
+This will work for all components, not just numbers. For example, setting `value` on a `gr.Image` equal to the full filepath of an image
+will load that image into the component when the app launches.
+
 ## Sharing Blocks Publicly
 
 Blocks  can be easily shared publicly by setting `share=True` in the `launch()` method. Like this:
